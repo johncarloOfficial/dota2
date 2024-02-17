@@ -9,9 +9,9 @@
 }
 
 body{
-    height: 200vh;
+    height: 150vh;
     background-color: #0e0e0e;
-    background-image: url('./IMAGES/hero-banner.jpg');
+    background-image: url('./IMAGES/HERO BANNER.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -289,6 +289,11 @@ p{
     opacity: 1;
 }
 
+.des-pc{
+	margin-top: -20%;
+}
+
+
 @media(max-width: 1850px){
     .des-sp{
         width: 80%;
@@ -365,10 +370,7 @@ p{
 }
 
 @media (max-width: 576px) {
-    .sp{
-        display: block;
-        width: 410%;
-    }
+   
     
     section#home{
         margin-top: 55%;
@@ -387,11 +389,11 @@ p{
     .sp{
         display: block;
         width: 200%;
-        margin-top: -235px;
+        margin-top: -260px;
     }
     section#home a{
         font-size: 10px;
-        margin-top: -50%;
+        margin-top: -24%;
     }
 
     .secret{
@@ -410,7 +412,7 @@ p{
     .des-sp{
         display: block;
         font-size: 10px;
-        margin-top: -30px;
+        margin-top: -85px;
     }
 
     .email, .button-signup{

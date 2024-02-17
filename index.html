@@ -37,13 +37,13 @@
 
     <main>
         <section id="home">
-            <img src="./IMAGES/hero-banner.jpg" alt="" class="sp" >
-            <a href="https://www.dota2.com/home" target="_blank" id="des3">See Details</a>
+            <img src="./IMAGES/HERO BANNER.jpg" alt="" class="sp" >
+            <a href="https://www.dota2.com/home" target="_blank" id="des3">Get Started</a>
         </section> 
 
         <section id="content">
             <img src="./IMAGES/secret.png" alt="" class="secret reveal">
-            <img src="./IMAGES/huskar-a.png" alt="" class="huskar reveal">
+            <img src="./IMAGES/huskar-1.png" alt="" class="huskar reveal">
 
             <p class="des-pc reveal" id="des">As his health lowers, Huskar's ability to slay enemies grows considerably. Able to instantly remove a portion of <br>
                 both his and an enemy's health with his ultimate, when near death he is able to throw his burning spears with <br>
@@ -55,7 +55,7 @@
         </section>
 
         <section id="signup">
-            <img src="./IMAGES/SIGN UP BANNER.png" alt="" class="signup">
+            <img src="./IMAGES/sign up.jpg" alt="" class="signup">
             <div class="placeholder">
                 <input type="Email" class="email" id="inp" placeholder="Email" ><br><br>
                 <button class="button-signup" id="register">Sign up</button>
@@ -108,7 +108,7 @@
     </script>
 
     <script>
-        var dataReload = document.querySelectorAll("[data-reload]");
+        var dataReload = document.querySelector("[data-reload]");
 
         var language = {
             eng: {
@@ -139,7 +139,7 @@
 
         for (i = 0; i <= dataReload.length; i++){
             dataReload[i].onclick = function(){
-                location.reload(true);
+                location.reload(1);
             };
         }
 
